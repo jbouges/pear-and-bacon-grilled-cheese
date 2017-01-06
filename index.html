@@ -5,11 +5,24 @@
     <meta charset="utf-8">
     <title>Grilled Cheese Recipes</title>
     <style>
-        h2 {
-            color: crimson;
-        }
         h1 {
             color: cadetblue;
+        }
+        body {
+            font-size: 20px;
+            color: #666;
+        }
+        #what {
+            color: seagreen;
+        }
+        #how {
+            color: firebrick;
+        }
+        #what ~ p {
+            font-style: italic;
+        }
+        #how ~ p {
+            font-family: sans-serif;
         }
     </style>
 </head>
@@ -18,7 +31,7 @@
     <h1>Pear and Bacon Grilled Cheese</h1>
 
     <section>
-        <h2>Ingredients</h2>
+        <h2 id="what">Ingredients</h2>
 
         <p>2 tablespoons unsalted butter</p>
         <p>2 tablespoons currant or fig jam</p>
@@ -29,7 +42,7 @@
     </section>
 
     <section>
-        <h2>Directions</h2>
+        <h2 id="how">Directions</h2>
 
         <p>1. Melt the <strong>butter</strong> in a small skillet over medium-low heat. Spread the <strong>jam</strong> on 1
             slice of the <strong>bread</strong> and form a sandwich with the <strong>cheese, bacon, and pear</strong>.</p>
